@@ -14,8 +14,8 @@ body {
 .display {
     width: 220px;
     height: 70px;
-    background: #333;
-    color: #fff;
+    background: #cff1ed;
+    color: #000000;
     display: inline-flex;
     justify-content: right;
     align-items: center;
@@ -23,11 +23,19 @@ body {
     line-height: 40px;
     padding: 0 10px;
     margin: 10px 5px 10px 5px;
-    border-radius: 5px;
+    border: solid 15px darkslateblue;
+    border-bottom-width: 7px;
+    border-top-width: 7px;
+    border-radius: 5px 5px 15px 15px;
+
+    /*border-radius: 7px;*/
+    /*border-bottom-right-radius: 15px;*/
+    /*border-bottom-left-radius: 15px;*/
 }
+
 .button {
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     background: #333;
     color: #fff;
     display: inline-flex;
@@ -35,8 +43,9 @@ body {
     align-items: center;
     font-size: 30px;
     margin: 5px;
-    border-radius: 5px;
+    border-radius: 5px 15px;
     cursor: pointer;
+
 }
 .button.operator {
     background: #ff9500;
@@ -44,4 +53,12 @@ body {
 .button.c {
     background: RED;
 
+}
+
+.img{
+    width: 100px;
+    height: 20px;
+    align-items: center;
+
+    margin-left: 5px;
 }
