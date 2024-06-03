@@ -17,6 +17,7 @@ body {
     background: #333;
     color: #fff;
     display: inline-flex;
+    justify-content: right;
     align-items: center;
     font-size: 30px;
     line-height: 40px;
